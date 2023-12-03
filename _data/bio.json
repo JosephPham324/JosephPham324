@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Pham Nhat Quang",
     "label": "Student",
     "picture": "https://avatars.githubusercontent.com/u/98719608?s=400&u=b720db4ed6204b9de23f5ef5bef911cc5a7ead67&v=4",
     "email": "quangnhatpham.dev@gmail.com",
@@ -17,7 +17,7 @@
     { "name": "Full-stack Web Development" },
     { "name": "Mobile Applications Development" },
     { "name": "Game Development" },
-    { "name": "API Development" },
+    { "name": "API Development" }
   ],
   "skills": [
     {
@@ -61,7 +61,7 @@
         "Develop company website with WordPress and Elementor plugin"
       ]
     }
-  ]
+  ],
   "awards": [
     {
       "title": "Consolation Prize",
