@@ -6,11 +6,11 @@
     "email": "quangnhatpham.dev@gmail.com",
     "phone": "(+84)857974230",
     "website": "https://josephpham324.github.io/JosephPham324/",
-    "summary": "I am studying for a B.S. in Software Engineering in the Department of Information Technoloy at the FPT University of Can Tho. I expect to graduate in Fall, 2024.",
+    "summary": "As a dedicated B.S. Software Engineering student at the FPT University of Can Tho's Department of Information Technology, I am on track to graduate in Fall 2024. Throughout my academic journey, I have built a robust foundation in key IT areas, honing skills in software development, .NET framework, and mobile and web application development. My curriculum has been enriched with a blend of theoretical knowledge and practical application, enabling me to tackle complex challenges in software engineering with confidence and creativity. My proactive approach to learning, combined with hands-on experience in diverse projects, positions me to make a significant impact in the rapidly evolving field of technology.",
     "location": { "address": "", "postalCode": "0270", "city": "Vinh Long", "countryCode": "VN", "region": "Mekong Delta" },
     "profiles": [
       { "network": "github", "username": "JosephPham324", "url": "http://github.com/JosephPham324" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/nhat-quang-pham-0491a6223" }
+      { "network": "linkedin", "username": "Nhat Quang Pham", "url": "http://linkedin.com/in/nhat-quang-pham-0491a6223" }
     ]
   },
   "interests": [
@@ -45,7 +45,21 @@
         "Basis Cross-Platform Application Programming With .NET",
         "Advanced Cross-Platform Application Programming With .NET",
         "C# Programming and Unity",
-        "Building Cross-Platform Back-End Application With .NET"
+        "Building Cross-Platform Back-End Application With .NET",
+        "Object-Oriented Programming",
+        "Operating System",
+        "Computer Networking",
+        "Database Systems",
+        "Web design",
+        "Java Web Application Development",
+        "Software Requirement",
+        "Software Testing",
+        "Ethics in IT",
+        "Software development project",
+        "On-The-Job Training",
+        "Advanced Cross-Platform Application Programming With .NET",
+        "Software Architecture and Design",
+        "Mobile Programming",
       ]
     }
   ],
@@ -56,7 +70,7 @@
       "website": "https://utasolution.com",
       "startDate": "2023-05-01",
       "endDate": "2023-11-01",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Partake in mock projects simulating real working environment, and company's internal projects",
       "highlights": [
         "Develop company website with WordPress and Elementor plugin"
       ]
@@ -79,7 +93,7 @@
       "title": "Excellent Student of Semester",
       "date": "Summer 2022",
       "awarder": "FPT University of Can Tho",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "summary": "Title awarded to students who achieved overall GPA of 3.6 in a given semester"
     }
   ],
   "references": [
