@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: ../image/utaweb/logo.png
+image: image/utaweb/logo.png
 title: "UTA Website"
 date: 2023
 published: true
