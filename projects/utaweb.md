@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://utasolution.com/wp-content/uploads/2023/08/logo.png
+image: ../image/utaweb/logo.png
 title: "UTA Website"
 date: 2023
 published: true
@@ -29,10 +29,10 @@ Summary of the parts I developed, they heavily involves carousels so I had to pa
 <img class="img-fluid" src="../img/utaweb/Home_AboutUs.png">
 
 ### Our Team
-<img class="img-fluid" src="../img/utaweb/Home_OurTeam.png.png">
+<img class="img-fluid" src="../img/utaweb/Home_OurTeam.png">
 
 ### Products & Service
-<img class="img-fluid" src="../img/utaweb/Home_ProductsService.png.png">
+<img class="img-fluid" src="../img/utaweb/Home_ProductsService.png">
 
 <hr>
 
