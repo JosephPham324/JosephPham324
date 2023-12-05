@@ -2,18 +2,29 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: CICO Health
+date: 2023
 published: false
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Git/GitHub
+  - Java Web
+  - Java Maven
+  - SQL Server
+  - model-view-controller
+  - fitness-app
+summary: "A web application to monitor diet and health metrics"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+CICO Health is a web application that aims to provide these health services:
+- Logging daily meals with essential information: macronutrients (protein, fat,
+carbohydrates) and energy.
+- Logging daily exercises, two major groups of exercises: cardiovascular exercises
+and resistance exercises.
+- Statistics for nutrition and exercises: basic visualization of logged information in the
+form of tables and charts.
+
 
 To give you a flavor of the game, here is an excerpt from one run:
 

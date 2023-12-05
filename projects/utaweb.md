@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: image/utaweb/logo.png
+image: img/vacay/vacay-square.png
 title: "UTA Website"
 date: 2023
 published: true
@@ -13,16 +13,21 @@ summary: "Introductory website for the company UTA Solution"
 
 <img class="img-fluid" src="../img/utaweb/Header.png">
 
-[UTA Website](https://utasolution.com) is the company website for UTA Solution, for which I interned in Summer 2023. The website was developed using WordPress and the Elementor plugin. My contribution to the project was developing parts of the home page (About Us, Our Team, Product and Service sections).
+[UTA Website](https://utasolution.com) is the official website for UTA Solution, a leading technology company. As an intern during the summer of 2023, I had the opportunity to contribute to this exciting project.
 
-Participating in this projects, I have learned important skills, both technical and soft skills:
-- Working with WordPress - publishing, monitoring pages.
-- Working with Elementor - using pre-made and custom components, customize components CSS, responsive settings, etc.
-- Working in a professional enviroment - logging and reporting task progress to the Project Manager and internship mentors.
-- Effective communication and teamwork.
-- Attention to details, adherence to requirements and design.
+Built with WordPress and Elementor, the UTA Website showcases customizability and aesthetic appeal. My role focused on developing the "About Us," "Our Team," and "Products & Services" sections of the home page.
 
-Summary of the parts I developed, they heavily involves carousels so I had to pay special attention to user interactions and responsiveness.
+**Key Learnings and Contributions:**
+
+- **WordPress Proficiency:** Gained experience in publishing and monitoring pages.
+- **Elementor Expertise:** Utilized a variety of pre-made and custom components for responsive design.
+- **Professional Environment:** Honed my skills in communication and teamwork, reporting progress to the Project Manager and mentors.
+- **Detail-Oriented Development:** Ensured adherence to project requirements and design.
+
+A notable aspect of my work was creating interactive carousels for a dynamic user experience, prioritizing responsiveness and user interaction.
+
+Explore the [UTA Solution Website](https://utasolution.com) to see the result of our collaborative efforts integrating WordPress and Elementor.
+
 <hr>
 
 ### About Us
