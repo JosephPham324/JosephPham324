@@ -98,7 +98,7 @@ Another important feature is nutrition statistics, this feature provides data vi
 The app provides options such as data type, display type, start day and end day to customize how you want to view the data.
 
 Below is Macronutrients statistics, displayed with multiple-line line chart:
-<img class="img-fluid" alt ="Macronutrients Chart Stats Example" src="/img/cicohealth/macrostats.png"> 
+<img class="img-fluid" alt ="Macronutrients Chart Stats Example" src="../img/cicohealth/macrostats.png"> 
 
 JS code to serve the chart on front-end:
 ```javascript
