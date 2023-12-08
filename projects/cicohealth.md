@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/cicohealth/thumbnail.png
 title: CICO Health
 date: 2023
 published: true
@@ -15,7 +15,7 @@ labels:
 summary: "A web application to monitor diet and health metrics"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/cicohealth/header.png">
 
 CICO Health is a web application developed by the team I led in the course SWP391 - Software Development Project. Designed as a fitness app, it provides essential features for users to manage their health and fitness regimen effectively. These features include logging daily meals with detailed macronutrient and energy information, recording various exercises like cardiovascular and resistance workouts, and offering comprehensive statistics for nutrition and exercise through interactive tables and charts.
 
