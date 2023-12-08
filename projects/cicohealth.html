@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="CICO Health | Quang N. Pham | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/98719608?s=400&u=b720db4ed6204b9de23f5ef5bef911cc5a7ead67&v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Quang N. Pham | Professional Portfolio">
+    <meta property="og:url" content="https://josephpham324.github.io//projects/cicohealth.html">
+    <meta property="og:title" content="CICO Health | Quang N. Pham | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/98719608?s=400&u=b720db4ed6204b9de23f5ef5bef911cc5a7ead67&v=4">
+    <link rel="shortcut icon" href="//favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="//css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="//css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>CICO Health | Quang N. Pham | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="//">Pham Nhat Quang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="//#projects">Projects</a>
+        <a class="nav-link" href="//#essays">Essays</a>
+        <a class="nav-link" href="//resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">CICO Health</h1>
+ <p><img class="img-fluid" src="../img/cicohealth/header.png" /></p>
+
+<p>CICO Health is a web application developed by the team I led in the course SWP391 - Software Development Project. Designed as a fitness app, it provides essential features for users to manage their health and fitness regimen effectively. These features include logging daily meals with detailed macronutrient and energy information, recording various exercises like cardiovascular and resistance workouts, and offering comprehensive statistics for nutrition and exercise through interactive tables and charts.</p>
+
+<h4 id="my-role-project-manager-and-lead-developer"><strong>My Role: Project Manager and Lead Developer</strong></h4>
+
+<p>As the <strong>Project Manager and Lead Developer</strong> for CICO Health, my responsibilities encompassed both strategic leadership and hands-on technical development.</p>
+
+<h5 id="team-coordination-and-leadership"><strong>Team Coordination and Leadership:</strong></h5>
+<ul>
+  <li>Spearheaded the project team, setting goals, timelines, and ensuring effective collaboration.</li>
+  <li>Facilitated regular meetings and progress checks to maintain project momentum and team alignment.</li>
+</ul>
+
+<h5 id="resource-allocation"><strong>Resource Allocation:</strong></h5>
+<ul>
+  <li>Strategically allocated tasks based on team members’ strengths and skill sets to optimize productivity and project outcomes.</li>
+  <li>Managed time and resources efficiently to meet project deadlines and objectives.</li>
+</ul>
+
+<h5 id="quality-assurance"><strong>Quality Assurance:</strong></h5>
+<ul>
+  <li>Established high standards for code quality and functionality.</li>
+  <li>Conducted regular code reviews and led testing initiatives to ensure the application’s reliability and user satisfaction.</li>
+</ul>
+
+<h5 id="architecture-design"><strong>Architecture Design:</strong></h5>
+<ul>
+  <li>Played a key role in the architectural design of the application, selecting a robust tech stack and defining the system’s structure for scalability and maintainability.</li>
+</ul>
+
+<h5 id="feature-development"><strong>Feature Development:</strong></h5>
+<ul>
+  <li>Directly contributed to the development of core application features, focusing on user-centric design and functionality.</li>
+  <li>Ensured seamless integration of meal and exercise logging features, along with detailed statistical analysis components.</li>
+</ul>
+
+<h5 id="code-review-and-integration"><strong>Code Review and Integration:</strong></h5>
+<ul>
+  <li>Oversaw the integration of code contributions from team members, ensuring consistency and compatibility with the application’s overall design.</li>
+  <li>Mentored junior developers, enhancing team capabilities and code quality.</li>
+</ul>
+
+<h5 id="troubleshooting-and-problem-solving"><strong>Troubleshooting and Problem Solving:</strong></h5>
+<ul>
+  <li>Acted as the primary troubleshooter for technical challenges, employing problem-solving skills to address and resolve issues efficiently.</li>
+</ul>
+<hr />
+
+<h3 id="feature-illustrations--code-snippets">Feature illustrations &amp; code snippets</h3>
+
+<h4 id="looking-up-food">Looking up food</h4>
+<p>One core feature is finding information about common food items, I implemented it by using a third party API provided by Nutritionix</p>
+
+<p>Using the feature is simple, just navigate to the Food Search page, then write out item names in natural language</p>
+
+<p><img class="img-fluid" alt="Food Search Example" src="../img/cicohealth/foodsearch.png" /></p>
+
+<p>The central front-end function written in JavaScript to serve search results:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">sendRequest</span><span class="p">(</span><span class="nx">query</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">request</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">XMLHttpRequest</span><span class="p">();</span>
+  <span class="kd">let</span> <span class="nx">url</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">https://trackapi.nutritionix.com/v2/natural/nutrients</span><span class="dl">"</span><span class="p">;</span> <span class="c1">//The URL to send the request to</span>
+  <span class="kd">let</span> <span class="nx">body</span> <span class="o">=</span> <span class="p">{</span><span class="na">query</span><span class="p">:</span> <span class="nx">query</span><span class="p">};</span> <span class="c1">//The food(s) to search for};</span>
+  <span class="kd">let</span> <span class="nx">applicationID</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">appid</span><span class="dl">"</span><span class="p">;</span> <span class="c1">//The application ID</span>
+  <span class="kd">let</span> <span class="nx">APIKey</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">apikey</span><span class="dl">"</span><span class="p">;</span> <span class="c1">//The API key</span>
+
+  <span class="nx">request</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="dl">"</span><span class="s2">POST</span><span class="dl">"</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="kc">true</span><span class="p">);</span> <span class="c1">//Open the request</span>
+  <span class="c1">//Set the request headers</span>
+  <span class="nx">request</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="dl">"</span><span class="s2">Content-Type</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">application/json</span><span class="dl">"</span><span class="p">);</span>
+  <span class="nx">request</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="dl">"</span><span class="s2">x-app-id</span><span class="dl">"</span><span class="p">,</span> <span class="nx">applicationID</span><span class="p">);</span>
+  <span class="nx">request</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="dl">"</span><span class="s2">x-app-key</span><span class="dl">"</span><span class="p">,</span> <span class="nx">APIKey</span><span class="p">);</span>
+
+  <span class="c1">//Set the request callback</span>
+  <span class="nx">request</span><span class="p">.</span><span class="nx">onreadystatechange</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">request</span><span class="p">.</span><span class="nx">readyState</span> <span class="o">===</span> <span class="nx">XMLHttpRequest</span><span class="p">.</span><span class="nx">DONE</span> <span class="o">&amp;&amp;</span> <span class="nx">request</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="mi">200</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="nx">request</span><span class="p">.</span><span class="nx">responseText</span><span class="p">;</span> <span class="c1">//Get the response</span>
+      <span class="nx">response</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">response</span><span class="p">);</span> <span class="c1">//Parse the response into JSON</span>
+
+      <span class="kd">let</span> <span class="nx">foods</span> <span class="o">=</span> <span class="nx">response</span><span class="p">.</span><span class="nx">foods</span><span class="p">;</span> <span class="c1">//Get the foods array</span>
+      <span class="nx">foods</span> <span class="o">=</span> <span class="nx">removeDuplicate</span><span class="p">(</span><span class="nx">foods</span><span class="p">);</span> <span class="c1">//Filter out duplicate foods</span>
+
+      <span class="nx">dislpayFoods</span><span class="p">(</span><span class="nx">foods</span><span class="p">);</span> <span class="c1">//Render the info in view</span>
+      
+      <span class="nx">addSearchResultEventListener</span><span class="p">();</span> <span class="c1">//Add the search result event listener</span>
+      <span class="nx">showSelected</span><span class="p">(</span><span class="nx">selectedFoods</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">};</span>
+  <span class="nx">request</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">body</span><span class="p">));</span> <span class="c1">//Send the request</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<h3 id="nutrition-statistics">Nutrition statistics</h3>
+<p>Another important feature is nutrition statistics, this feature provides data visualization for the food you log over a period of times.</p>
+
+<p>The app provides options such as data type, display type, start day and end day to customize how you want to view the data.</p>
+
+<p>Below is Macronutrients statistics, displayed with multiple-line line chart:
+<img class="img-fluid" alt="Macronutrients Chart Stats Example" src="../img/cicohealth/macrostats.png" /></p>
+
+<p>JS code to serve the chart on front-end:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">displayMacronutrientsChart</span><span class="p">(</span><span class="nx">analyzedData</span><span class="p">,</span> <span class="nx">chartElement</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// Separate the macronutrient data</span>
+  <span class="kd">const</span> <span class="nx">proteinData</span> <span class="o">=</span> <span class="nx">analyzedData</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">obj</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">proteinConsumed</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">fatData</span> <span class="o">=</span> <span class="nx">analyzedData</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">obj</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">fatConsumed</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">carbsData</span> <span class="o">=</span> <span class="nx">analyzedData</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">obj</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">carbsConsumed</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">dateLabels</span> <span class="o">=</span> <span class="nx">analyzedData</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">obj</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">date</span><span class="p">);</span>
+
+  <span class="c1">// Create the chart using Chart.js</span>
+  <span class="kd">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="nx">chartElement</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="dl">"</span><span class="s2">2d</span><span class="dl">"</span><span class="p">);</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">displayedChart</span><span class="p">)</span> <span class="nx">displayedChart</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
+  <span class="kd">const</span> <span class="nx">chart</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Chart</span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">type</span><span class="p">:</span> <span class="dl">"</span><span class="s2">line</span><span class="dl">"</span><span class="p">,</span>
+    <span class="na">data</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">labels</span><span class="p">:</span> <span class="nx">dateLabels</span><span class="p">,</span>
+      <span class="na">datasets</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span><span class="c1">//Display protein line</span>
+        <span class="p">},</span>
+        <span class="p">{</span><span class="c1">//Display fat line</span>
+        <span class="p">},</span>
+        <span class="p">{</span><span class="c1">//Display carb line</span>
+        <span class="p">},</span>
+      <span class="p">],</span>
+    <span class="p">},</span>
+    <span class="na">options</span><span class="p">:</span> <span class="p">{</span><span class="c1">//Display options</span>
+    <span class="p">},</span>
+  <span class="p">});</span>
+  <span class="k">return</span> <span class="nx">chart</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<p>Source: <a href="https://github.com/JosephPham324/CICOHealth-SWP391"><i class="large github icon "></i>JosephPham324/CICOHealth-SWP391</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "basics": {
+    "name": "Pham Nhat Quang",
+    "label": "Student",
+    "picture": "https://avatars.githubusercontent.com/u/98719608?s=400&u=b720db4ed6204b9de23f5ef5bef911cc5a7ead67&v=4",
+    "email": "quangnhatpham.dev@gmail.com",
+    "phone": "(+84)857974230",
+    "website": "https://josephpham324.github.io/JosephPham324/",
+    "summary": "As a dedicated B.S. Software Engineering student at the FPT University of Can Tho's Department of Information Technology, I am on track to graduate in Fall 2024. Throughout my academic journey, I have built a robust foundation in key IT areas, honing skills in software development, .NET framework, and mobile and web application development. My curriculum has been enriched with a blend of theoretical knowledge and practical application, enabling me to tackle complex challenges in software engineering with confidence and creativity. My proactive approach to learning, combined with hands-on experience in diverse projects, positions me to make a significant impact in the rapidly evolving field of technology.",
+    "location": { "address": "", "postalCode": "0270", "city": "Vinh Long", "countryCode": "VN", "region": "Mekong Delta" },
+    "profiles": [
+      { "network": "github", "username": "JosephPham324", "url": "http://github.com/JosephPham324" },
+      { "network": "linkedin", "username": "Nhat Quang Pham", "url": "http://linkedin.com/in/nhat-quang-pham-0491a6223" }
+    ]
+  },
+  "interests": [
+    { "name": "Full-stack Web Development" },
+    { "name": "Mobile Applications Development" },
+    { "name": "Game Development" },
+    { "name": "API Development" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "C#", "HTML", "CSS" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Git/GitHub", "Windows", "Android"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "FPT University of Can Tho, Vietnam",
+      "area": "Software Engineering (expected Fall, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "Present",
+      "courses": [
+        "Computer Organization and Architecture",
+        "Data Structures and Algorithm",
+        "Introduction to Software Engineering",
+        "Software Requirement",
+        "Software Testing",
+        "Basis Cross-Platform Application Programming With .NET",
+        "Advanced Cross-Platform Application Programming With .NET",
+        "C# Programming and Unity",
+        "Building Cross-Platform Back-End Application With .NET",
+        "Object-Oriented Programming",
+        "Operating System",
+        "Computer Networking",
+        "Database Systems",
+        "Web design",
+        "Java Web Application Development",
+        "Software Requirement",
+        "Software Testing",
+        "Ethics in IT",
+        "Software development project",
+        "On-The-Job Training",
+        "Advanced Cross-Platform Application Programming With .NET",
+        "Software Architecture and Design",
+        "Mobile Programming",
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UTA Solution",
+      "position": "Web Developer",
+      "website": "https://utasolution.com",
+      "startDate": "2023-05-01",
+      "endDate": "2023-11-01",
+      "summary": "Partake in mock projects simulating real working environment, and company's internal projects",
+      "highlights": [
+        "Develop company website with WordPress and Elementor plugin"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Consolation Prize",
+      "date": "2018",
+      "awarder": "Vinh Long City Youth Information Competition",
+      "summary": "Title awarded to students particpated in the competition and got significant score but below third prize"
+    },
+    {
+      "title": "Honorable Student of Semester",
+      "date": "Fall 2021; Spring, Fall 2022; Spring 2023",
+      "awarder": "FPT University of Can Tho",
+      "summary": "Title awarded to students who achieved overall GPA of 3.2 in a given semester"
+    },
+    {
+      "title": "Excellent Student of Semester",
+      "date": "Summer 2022",
+      "awarder": "FPT University of Can Tho",
+      "summary": "Title awarded to students who achieved overall GPA of 3.6 in a given semester"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
